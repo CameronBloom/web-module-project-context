@@ -2,12 +2,13 @@ import React, { useState } from 'react';
 import { Route } from 'react-router-dom';
 import data from './data';
 
-// Components
-import Navigation from './components/Navigation';
-import Products from './components/Products';
-import ShoppingCart from './components/ShoppingCart';
+// Components (3)
+import Navigation from './components/Navigation'; // navigation
+import Products from './components/Products'; // route
+import ShoppingCart from './components/ShoppingCart'; // route
 
 function App() {
+	// state properties
 	const [products] = useState(data);
 	const [cart, setCart] = useState([]);
 
