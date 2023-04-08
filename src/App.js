@@ -9,6 +9,7 @@ import ShoppingCart from './components/ShoppingCart'; // route
 
 // Context
 import { ProductContext } from './contexts/ProductContext';
+import { CartContext } from './contexts/CartContext';
 
 function App() {
 	// state properties
@@ -21,7 +22,7 @@ function App() {
 	};
 
 	return (
-		<ProductContext.Provider value={{ products, cart, setCart }}>
+		<ProductContext.Provider value={{ products, cart, addItem }}>
 			<div className="App">
 				<Navigation cart={cart} />
 
