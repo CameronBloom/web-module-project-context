@@ -157,7 +157,7 @@ Do not attempt stretch problems until MVP has been reached and a final commit ha
 - Persist Cart Items using `localStorage`. (If you try this one, it will be a bit tricky to get our items to populate the shopping cart on a refresh. You'll have to think about where the data actually lives, and how you can get data there from localStorage when the app is being mounted after a refresh. Good luck!)
 
 ### Submission Format
-- [ ] If this is your first time connecting a submission, authorize your github account within the codegrade assignment.
-- [ ] Connect your fork to Codegrade using the "Connect Git" button.
-- [ ] Find your newly created fork from the list and push your work to main.
-- [ ] Check this video for details: www.youtube.com/watch?v=fC2BO7dI6IQ
+- [x] If this is your first time connecting a submission, authorize your github account within the codegrade assignment.
+- [x] Connect your fork to Codegrade using the "Connect Git" button.
+- [x] Find your newly created fork from the list and push your work to main.
+- [x] Check this video for details: www.youtube.com/watch?v=fC2BO7dI6IQ
